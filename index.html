@@ -3,49 +3,74 @@
 <html lang="mr">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>NN Decoration</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NN Decoration & Events</title>
 <style>
+*{box-sizing:border-box}
 body{margin:0;font-family:Arial;background:#fff7f0;color:#333}
-header{background:#800020;color:white;text-align:center;padding:25px}
-header h1{font-size:32px;margin:5px}
-nav{background:#d4af37;padding:13px;text-align:center}
-nav a{color:#300;font-weight:bold;margin:10px;text-decoration:none}
-section{padding:25px;text-align:center}
+header{background:#800020;color:white;text-align:center;padding:30px 15px}
+header h1{font-size:34px;margin:5px}
+nav{background:#d4af37;padding:15px;text-align:center}
+nav a{color:#300;font-weight:bold;margin:8px;text-decoration:none}
+section{padding:25px 15px;text-align:center}
 h2{color:#800020}
 .card{background:white;padding:20px;margin:15px auto;border-radius:12px;max-width:600px;box-shadow:0 2px 8px #ccc}
-button{background:#800020;color:white;padding:12px 25px;border:0;border-radius:8px}
+.gallery{display:grid;grid-template-columns:1fr 1fr;gap:12px;max-width:700px;margin:auto}
+.gallery img{width:100%;height:160px;object-fit:cover;border-radius:12px}
+.whatsapp{display:inline-block;background:#168b48;color:white;padding:14px 25px;border-radius:25px;text-decoration:none;font-weight:bold}
 footer{background:#800020;color:white;text-align:center;padding:20px}
 </style>
 </head>
 <body>
+
 <header>
 <h1>NN Decoration</h1>
 <p>Make Your Special Day Beautiful</p>
 </header>
+
 <nav>
 <a href="#home">Home</a>
 <a href="#services">Services</a>
+<a href="#gallery">Gallery</a>
 <a href="#contact">Contact</a>
 </nav>
+
 <section id="home">
 <h2>Welcome to NN Decoration</h2>
 <p>लग्न समारंभ, वाढदिवस आणि सर्व प्रकारच्या सजावटीसाठी संपर्क करा.</p>
 </section>
+
 <section id="services">
 <h2>Our Services</h2>
-<div class="card">Wedding Decoration</div>
-<div class="card">Birthday Decoration</div>
-<div class="card">Stage Decoration</div>
-<div class="card">Event Decoration</div>
+<div class="card">Wedding Decoration 💐</div>
+<div class="card">Birthday Decoration 🎂</div>
+<div class="card">Stage Decoration 🌸</div>
+<div class="card">Event Decoration 🎉</div>
 </section>
+
+<section id="gallery">
+<h2>Our Photo Gallery</h2>
+<p>आमच्या सुंदर सजावटीचे फोटो</p>
+<div class="gallery">
+<img src="photo1.jpg" alt="Wedding Decoration">
+<img src="photo2.jpg" alt="Stage Decoration">
+<img src="photo3.jpg" alt="Birthday Decoration">
+<img src="photo4.jpg" alt="Event Decoration">
+</div>
+</section>
+
 <section id="contact">
 <h2>Contact Us</h2>
 <div class="card">
 <p>मोठी वेस, श्रीक्षेत्र धोत्री, ता. दक्षिण सोलापूर, जि. सोलापूर.</p>
 <p>फोन: तुमचा मोबाईल नंबर येथे टाका</p>
+<a class="whatsapp" href="https://wa.me/91XXXXXXXXXX">WhatsApp Contact</a>
 </div>
 </section>
-<footer>© 2026 NN Decoration</footer>
+
+<footer>
+© 2026 NN Decoration & Events
+</footer>
+
 </body>
 </html>
